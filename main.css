@@ -1,0 +1,114 @@
+div.top {
+	background-color: purple;
+}
+
+div.top a{
+	color: white;
+	text-decoration: none;
+}
+
+div.top a:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+#logo {
+	width: 150px;
+	height: 40px;
+}
+
+#logo {
+	float: left;
+}
+
+#search-box {
+	float: left;
+	height: 40px;
+	width: 450px;
+}
+
+#search-button {
+	float: left;
+	color: white;
+	height: 40px;
+	width: 110px;
+	background-color: #007FFF;
+	
+}
+
+#search-button:hover {
+	background-color: #1B3F8B;
+}
+
+#profile span {
+	color: purple;
+	font-weight: bold;
+}
+
+#profile  img {
+	height: 40px;
+	width: 40px;
+	vertical-align: middle;	
+}
+
+.left-col {
+	float: left;
+}
+
+.left-col a {
+	color: purple;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.left-col span:hover {
+	color: #007FFF;
+	text-decoration: underline;
+}
+#table-container {
+	float: left;
+}
+
+table {
+	float: left;
+	clear: left;
+	margin: 0;
+	padding: 0;
+}
+
+td {
+	border: 1px solid black;
+	vertical-align: bottom;
+}
+
+
+#first {
+	width: 685px;
+	height: 250px;
+}
+
+#second td {
+	width: 167px;
+	height: 100px;
+}
+
+#last td  {
+	width: 167px;
+	height: 40px;
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
