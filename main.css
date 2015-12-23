@@ -109,6 +109,7 @@ td {
 }
 	
 #right  {
+	clear: right;
 	float: left;
 }
 
@@ -130,15 +131,16 @@ td {
 	height: 40px;
 }
 
-
-#pol {
+#cont {
 	float: left;
+	display: inline-table;
 }
+
 
 #bottom {
 	position: relative;
-	left: 95px;
-	display: table-cell;
+	float: left;
+	margin-left: 95px;
 }
 
 .botimage img {
@@ -163,15 +165,36 @@ td {
 }
 
 div.botimage {
-	width: 700px;
+	width: 688px;
 	vertical-align: bottom;
 	border: 1px solid gray;
 }
 
+#rightmost {
+	display: block;
+	float: left;
+}
 
+#rightmost  div {
+	border: 1px solid black;
+}
 
+.circles img {
+	width: 200px;
+	height: 200px;
+}
 
+.circles p {
+	color: purple;
+}
 
+.circles h5 {
+	color: purple;
+}
+
+.circles h5:hover {
+	color: #007FFF;
+}
 
 
 
