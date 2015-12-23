@@ -83,8 +83,18 @@ td {
 
 
 #first {
+	color: purple;
 	width: 685px;
 	height: 250px;
+}
+
+#first h4:hover {
+	color: #007FFF;
+	text-decoration: underline;
+}
+#last td:hover {
+	color: #007FFF;
+	text-decoration: underline;
 }
 
 #second td {
@@ -93,6 +103,7 @@ td {
 }
 
 #last td  {
+	color: purple;
 	width: 167px;
 	height: 40px;
 }
@@ -101,8 +112,16 @@ td {
 	float: left;
 }
 
+#weather {
+
+}
+
 #weather table tr td{
 	width: 49px;
+}
+
+#bottom {
+
 }
 
 
