@@ -112,17 +112,63 @@ td {
 	float: left;
 }
 
-#weather {
-
+#think {
+	color: purple;
 }
 
-#weather table tr td{
+#think td:hover {
+	color: #007FFF;
+}
+
+#gps td img {
+	width: 16px;
+	height: 16px;
+}
+
+#img td img {
 	width: 49px;
+	height: 40px;
+}
+
+
+#pol {
+	float: left;
 }
 
 #bottom {
-
+	position: relative;
+	left: 95px;
+	display: table-cell;
 }
+
+.botimage img {
+	float: left;
+	vertical-align: bottom;
+	width: 170px;
+	height: 110px;
+}
+
+
+#bottom div p {
+	color: purple;
+	vertical-align: bottom;
+}
+
+#bottom div p:hover {
+	color: #007FFF;
+}
+
+#bottom div p.transform {
+	color: black;
+}
+
+div.botimage {
+	width: 700px;
+	vertical-align: bottom;
+	border: 1px solid gray;
+}
+
+
 
 
 
