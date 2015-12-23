@@ -97,6 +97,13 @@ td {
 	height: 40px;
 }
 	
+#right  {
+	float: left;
+}
+
+#weather table tr td{
+	width: 49px;
+}
 
 
 
