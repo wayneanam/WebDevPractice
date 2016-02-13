@@ -1,4 +1,14 @@
+div {
+
+}
+
+#wrap {
+  width: 1110px;
+  margin: 0 auto;
+}  
+
 div.top {
+  margin-bottom: 20px;
 	background-color: purple;
 }
 
@@ -12,19 +22,23 @@ div.top a:hover{
 	text-decoration: underline;
 }
 
-#logo {
-	width: 150px;
-	height: 40px;
+.second {
+  height: 40px;
+  margin-bottom: 20px;
 }
 
 #logo {
-	float: left;
+  float: left;
+	width: 150px;
+	height: 40px;
+  margin-right: 20px;
 }
 
 #search-box {
 	float: left;
-	height: 40px;
+	height: 34px;
 	width: 450px;
+  margin-right: 5px;
 }
 
 #search-button {
@@ -32,12 +46,17 @@ div.top a:hover{
 	color: white;
 	height: 40px;
 	width: 110px;
+  margin-right: 50px;
 	background-color: #007FFF;
-	
 }
 
 #search-button:hover {
 	background-color: #1B3F8B;
+}
+
+#profile {
+  float: right;
+  height: 40px;
 }
 
 #profile span {
@@ -53,11 +72,14 @@ div.top a:hover{
 
 .left-col {
 	float: left;
+  margin-top: 20px;
+  margin-right: 50px;
 }
 
 .left-col a {
 	color: purple;
-	font-weight: bold;
+  display: block;
+  font-weight: bold;
 	text-decoration: none;
 }
 
@@ -67,17 +89,16 @@ div.top a:hover{
 }
 #table-container {
 	float: left;
+  margin-top: 20px;
 }
 
 table {
 	float: left;
 	clear: left;
-	margin: 0;
-	padding: 0;
 }
 
 td {
-	border: 1px solid black;
+	border: 1px solid #d3d3d3 ;
 	vertical-align: bottom;
 }
 
@@ -110,7 +131,8 @@ td {
 	
 #right  {
 	clear: right;
-	float: left;
+	float: right;
+  margin-top: 20px;
 }
 
 #think {
@@ -133,6 +155,7 @@ td {
 
 #cont {
 	float: left;
+  margin-left: 47px;
 	display: inline-table;
 }
 
@@ -167,16 +190,17 @@ td {
 div.botimage {
 	width: 688px;
 	vertical-align: bottom;
-	border: 1px solid gray;
+	border: 1px solid #d3d3d3;
 }
 
 #rightmost {
+  float: right;
+  margin-left: 43px;
 	display: block;
-	float: left;
 }
 
 #rightmost  div {
-	border: 1px solid black;
+	border: 1px solid #d3d3d3 ;
 }
 
 .circles img {
