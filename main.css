@@ -1,7 +1,3 @@
-div {
-
-}
-
 #wrap {
   width: 1110px;
   margin: 0 auto;
@@ -47,6 +43,8 @@ div.top a:hover{
 	height: 40px;
 	width: 110px;
   margin-right: 50px;
+  border: none;
+  border-radius: 5px;
 	background-color: #007FFF;
 }
 
@@ -219,15 +217,3 @@ div.botimage {
 .circles h5:hover {
 	color: #007FFF;
 }
-
-
-
-
-
-
-
-
-
-
-
-
